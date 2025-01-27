@@ -132,6 +132,7 @@ const FormExtension = {
           allowDangerousHTML: true,
           assistant: {
             extensions: [FormExtension],
+            stylesheet: "<style> .vfrc-button .vfrc-launcher { background-color: #91C2D4; } </style>"
           }
         }).then(() => {
           console.log('Voiceflow widget loaded successfully');
